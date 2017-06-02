@@ -29,9 +29,9 @@ test:
 production:
   adapter: mysql2
   host: ENV('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net')
-  database: ENV('DB_DATABASE', 'heroku_68c4b3c5296d68a')
-  username: b2bf9f3aec1672
-  password: d8a9ada8
+  database: ENV('DB_DATABASE', 'heroku_4f0f7c371d4b036')
+  username: b1c19c4696eace
+  password: f0428891
   encoding: utf8
 
 
