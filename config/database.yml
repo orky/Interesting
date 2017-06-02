@@ -27,5 +27,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: mysql2
+  host: ENV('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net')
+  database: ENV('DB_DATABASE', 'heroku_68c4b3c5296d68a')
+  username: b2bf9f3aec1672
+  password: d8a9ada8
+  encoding: utf8
+
+
